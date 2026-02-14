@@ -25,3 +25,10 @@ As shown in the image above, there are currently 16 supported models. You can se
 モデルによっては完全な非検閲を実現できていません。モデルが回答を拒否した場合は、再生成ボタンを押して再度生成を試みてください。
 
 Not all models are completely uncensored. If the model rejects your answer, please try generating it again by pressing the regenerate button.
+
+---
+
+## 責任あるAI利用と学習データの安全性
+### 責任ある利用の徹底
+* **ユーザーの責任**: モデルの利用者は、生成されたコンテンツが、適用される**法律、規制、およびHugging Faceの利用規約/コンテンツポリシーに準拠**することを**全面的に保証**する必要があります。
+* **禁止事項**: このモデルを、いかなる**差別、ハラスメント、暴力、違法行為、および有害な目的**のために利用することを**固く禁じます**。
