@@ -1,5 +1,13 @@
 # SturmAngriff
 
+SturmAngriffは既存の大規模言語モデルを非検閲で利用できるチャットツールです。
+
+このシステムを実行するために必要なコンピュータのスペックは、第13世代 Core i7 プロセッサと16GB RAMです。
+Ollama と Python がインストールされている必要があります。
+モデルは Ollama で既に利用可能である必要があります。
+
+Windows で go-web.bat を実行してください。
+
 SturmAngriff is a chat tool that allows you to use existing large-scale language models in an uncensored form.
 
 The computer specifications required to run this system are a 13th Core i7 processor and 16GB RAM.
@@ -7,3 +15,13 @@ Ollama and Python must be installed.
 The model must already be available in Ollama.
 
 Run go-web.bat on Windows.
+
+![image/jpg](https://github.com/temaq-org/SturmAngriff/blob/252ec86bd5efd204e00bd11ef945ba0125cd95f8/SturmAngriff.png)
+
+現在は上の画像のとおり、16個のモデルに対応しています。モデルを選択してチャットを利用できます。モデルを利用するには、事前にOllamaへモデルを導入しておく必要があります。
+
+As shown in the image above, there are currently 16 supported models. You can select a model to use in chat. To use a model, you must first install it in Ollama.
+
+モデルによっては完全な非検閲を実現できていません。モデルが回答を拒否した場合は、再生成ボタンを押して再度生成を試みてください。
+
+Not all models are completely uncensored. If the model rejects your answer, please try generating it again by pressing the regenerate button.
